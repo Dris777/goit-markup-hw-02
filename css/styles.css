@@ -46,8 +46,7 @@ a {
   color: #2196f3;
 }
 
-.adress-mail:hover,
-:focus {
+.adress-mail:hover {
   color: var(--dedicated-text-color);
 }
 .button-main {
@@ -68,8 +67,7 @@ a {
 .studio {
   color: var(--dedicated-text-color);
 }
-.button:hover,
-:focus {
+.button:hover {
   background: #2196f3;
 }
 
