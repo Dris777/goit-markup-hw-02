@@ -1,2 +1,2 @@
 # goit-markup-hw-02
-ДЗ номер 2 
+dris777.github.io/home-work1/ 
