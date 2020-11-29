@@ -42,10 +42,10 @@ a {
   clip-path: imset(100%);
   clip: rect(0 0 0 0);
 }
-.site-nav :hover,
-:focus {
+.site-nav :hover {
   color: #2196f3;
 }
+
 .adress-mail:hover,
 :focus {
   color: var(--dedicated-text-color);
