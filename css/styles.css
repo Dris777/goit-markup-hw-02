@@ -6,6 +6,7 @@
   --main-font: 'Roboto', sans-serif;
   --second-font: 'Raleway', sans-serif;
 }
+
 address {
   font-style: normal;
 }
@@ -20,6 +21,7 @@ a {
   text-decoration: none;
   color: var(--title-text-color);
 }
+/* Стили для логотипа */
 .logo {
   color: var(--dedicated-text-color);
 }
@@ -74,3 +76,14 @@ a {
 .button span:hover {
   color: #ffffff;
 }
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+letter-spacing: 0.03em;
+
+color: #757575;
