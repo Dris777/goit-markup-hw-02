@@ -1,3 +1,4 @@
+/* Общие значения для цвета и шрифта */
 :root {
   --primary-text-color: #757575;
   --title-text-color: #212121;
@@ -6,7 +7,7 @@
   --main-font: 'Roboto', sans-serif;
   --second-font: 'Raleway', sans-serif;
 }
-
+/* Общие правила для всех тегов */
 address {
   font-style: normal;
 }
@@ -21,6 +22,10 @@ a {
   text-decoration: none;
   color: var(--title-text-color);
 }
+.container {
+  min-width: 1600;
+}
+
 /* Стили для логотипа */
 .logo {
   color: var(--dedicated-text-color);
@@ -41,8 +46,18 @@ a {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  display: flex;
 }
-
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-left: 215px;
+  padding-right: 215px;
+}
+.site-nav {
+  display: flex;
+}
 /* Скрытый заголовок */
 .visually-hidden {
   position: absolute;
